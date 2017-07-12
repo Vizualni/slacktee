@@ -6,7 +6,11 @@ This is Slacktee implementation inside of a Docker container. For more informati
 
 Use it the same way as you would use slacktee, but in a Docker way ;).
 
-Example: `echo "Hello World!" | docker run --rm -i -v $(pwd)/slacktee.conf:/slacktee.conf vizualni/slacktee --config /slacktee.conf --channel "#general" --plain-text`
+Example:
+
+```bash
+echo "Hello World!" | docker run --rm -i -v $(pwd)/slacktee.conf:/slacktee.conf vizualni/slacktee --config /slacktee.conf --channel "#general" --plain-text
+```
 
 
 ## Versioning
